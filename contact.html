@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+
+        function btnfun() {
+            let nav = document.getElementById('navit');
+            nav.classList.toggle("hidden");
+            console.log('clicked')
+
+        }
+    </script>
+    <script src="validate.js"></script>
+
+</head>
+
+<body>
+    <script src="customelement.js"></script>
+    <nav-bar class="md:block hidden"></nav-bar>
+    <small-nav class="md:hidden"></small-nav>
+    <div class="text-center font-bold my-7 text-2xl">
+        <h1>Contact us</h1>
+    </div>
+    <main class="flex mb-40 flex-col md:flex-row mt-10 justify-between md:px-[5rem] lg:bg-white ">
+        <div class="w-[60%] mx-auto block  md:hidden  md:mt-5 ">
+            <img class="w-[105%]" src="imgs/social.webp" alt="">
+
+
+        </div>
+
+        <div class=" self-center content-center  sm:[50%]   text-center  pt-14 ">
+            <form class="space-y-5 " action="/data.php" name="myform" onsubmit=" return validate()" method="post">
+                <div>
+                    <label for="name" id="name">Name</label>
+                    <input name="name" class="border-2 border-slate-500 rounded-md active:border-blue-400" type="text">
+                    <span id="nameerror" class="text-red-700 font-bold "></span>
+                </div>
+                <div>
+                    <label for="name">Email</label>
+                    <input name="email" class="border-2 border-slate-500 rounded-md active:border-blue-400"
+                        type="email"><span id="emailerror" class="text-red-700 font-bold "></span>
+                </div>
+                <div>
+                    <label class="" for="message">Message</label>
+                    <textarea class="border-2 border-slate-500 rounded-md active:border-blue-400" name="message"
+                        id="message" cols="20" rows="4"></textarea>
+
+                </div>
+                <div class="justify-center text-center md:w-[44%]"><input
+                        class="bg-blue-600 cursor-pointer rounded-lg px-1 py-1 text-white hover:bg-blue-800"
+                        type="submit" value="Submit"></div>
+            </form>
+        </div>
+        <div class="hidden md:w-[44%] md:block  md:mt-9 ml-16">
+            <img src="imgs/social.webp" alt="">
+
+
+        </div>
+
+    </main>
+
+
+    <foot-er></foot-er>
+
+
+
+</body>
+
+</html>

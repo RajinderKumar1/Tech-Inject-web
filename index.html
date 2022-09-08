@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Inject</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+
+        function btnfun() {
+            let nav = document.getElementById('navit');
+            nav.classList.toggle("hidden");
+            console.log('clicked')
+
+        }
+    </script>
+
+</head>
+
+<body>
+    <script src="customelement.js"></script>
+    <nav-bar class="md:block hidden"></nav-bar>
+    <small-nav class="md:hidden"></small-nav>
+
+    <main class="flex flex-col md:flex-row mt-20 justify-between md:px-[5rem] lg:bg-white ">
+        <div class="w-[60%] mx-auto block  md:hidden  md:mt-9 ">
+            <img src="imgs/bg.webp" alt="">
+
+
+        </div>
+        <div class=" self-center  sm:[50%] w-[90%] md:w-[60%] text-center md:text-left pt-14 ">
+            <h1 class="font-bold  text-2xl  md:text-5xl mb-10">Welcome to <br class="hidden "> Tech Inject</h1>
+            <p>A tech inject is an electronics-based technological company, including, for example, business
+                relating to digital electronics, software, and internet-related services, such as e-commerce services.
+            </p>
+
+        </div>
+        <div class="w-[30%] hidden md:block md:ml-6 md:mt-9 ml-16">
+            <img src="imgs/bg.webp" alt="">
+
+
+        </div>
+
+    </main>
+
+    <hr class="my-4">
+
+    <section class="text-center md:px-[5rem] my-10  ">
+        <h1 class="font-bold text-xl my-7">Our Services</h1>
+        <div class="flex  items-center space-y-10 md:space-y-0 md:space-x-20 justify-center flex-col md:flex-row">
+
+            <div
+                class="  hover:scale-110  duration-500 sm:[50%] w-[90%] md:w-[20%] border-2 border-blue-400 rounded-md">
+
+                <img src="imgs/webd.jpg" alt="">
+
+
+                <div class="p-[1rem]">
+                    <h3 class="font-bold">Web Development</h3>
+                    <p>we can develop responsive high end websites.which help to get your business online. </p>
+                </div>
+
+            </div>
+            <div
+                class="  md:w-[20%] sm:[50%] w-[90%] hover:scale-110  duration-500  border-2 border-blue-400 rounded-md">
+                <div>
+                    <img src="imgs/social.webp" alt="">
+
+                </div>
+                <div class="p-[1rem]">
+                    <h3 class="font-bold ">Social media Marketing</h3>
+                    <p>we can develop responsive high end websites.which help to get your business online. </p>
+                </div>
+
+            </div>
+
+            <div
+                class=" md:w-[20%] sm:[50%] w-[90%] hover:scale-110  duration-500  border-2 border-blue-400 rounded-md">
+                <div class="">
+                    <img src="imgs/and.avif" alt="">
+
+                </div>
+                <div class="p-[1rem]">
+                    <h3 class="font-bold">App Development</h3>
+                    <p>we can develop responsive high end websites.which help to get your business online. </p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+    <foot-er></foot-er>
+</body>
+
+</html>

@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<!-- saved from url=(0104)https://www.vectorstock.com/royalty-free-vector/technology-logo-designabstract-tech-icon-vector-33721030 -->
+<html lang="en" class="webp js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<script type="text/javascript" src="./logo2_files/02e09611df"></script><script src="./logo2_files/nr-1216.min.js"></script><script src="./logo2_files/paddle.js" type="text/javascript"></script>
+	<link rel="preconnect" href="https://cdn.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn.vectorstock.com/">
+	<meta name="theme-color" content="#101122">
+	<script type="text/javascript" async="" src="./logo2_files/analytics.js" nonce="r2zFIQNjAE3UvvxDwPZazIpt7izWma8QfH3Nd5t/Z5M="></script><script type="text/javascript" async="" src="./logo2_files/f.txt" nonce="r2zFIQNjAE3UvvxDwPZazIpt7izWma8QfH3Nd5t/Z5M="></script><script type="text/javascript" async="" src="./logo2_files/js" nonce="r2zFIQNjAE3UvvxDwPZazIpt7izWma8QfH3Nd5t/Z5M="></script><script type="text/javascript" async="" src="./logo2_files/js(1)" nonce="r2zFIQNjAE3UvvxDwPZazIpt7izWma8QfH3Nd5t/Z5M="></script><script type="text/javascript" nonce="r2zFIQNjAE3UvvxDwPZazIpt7izWma8QfH3Nd5t/Z5M=">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"02e09611df",applicationID:"156179534"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(9),c=t(10),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(11);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(8),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],7:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],8:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],9:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],10:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],11:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(9),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!M++){var t=T.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(x,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+T.offset],null,"api"),c("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){c("mark",["domContent",a()+T.offset],null,"api")}var a=t(5),c=t("handle"),f=t(9),u=t("ee"),s=t(7),d=t(2),p=t(3),l=d.getConfiguration("ssl")===!1?"http":"https",v=window,m=v.document,g="addEventListener",y="attachEvent",h=v.XMLHttpRequest,w=h&&h.prototype,b=!1;NREUM.o={ST:setTimeout,SI:v.setImmediate,CT:clearTimeout,XHR:h,REQ:v.Request,EV:v.Event,PR:v.Promise,MO:v.MutationObserver};var E=""+location,x={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1216.min.js"},O=h&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),T=e.exports={offset:a.getLastTimestamp(),now:a,origin:E,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(6),m[g]?(m[g]("DOMContentLoaded",o,p(!1)),v[g]("load",r,p(!1))):(m[y]("onreadystatechange",i),v[y]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var M=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(10),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="csrf-name" content="csrf6316edfad8645">
+	<meta name="csrf-value" content="97a066bbe2a091891ca2ac6fe7a42321">
+	
+	<meta name="cart-hash" content="d751713988987e9331980363e24189ce">
+	<meta name="live-settings" content="[]">
+	<meta name="twitter:site" content="@VectorStock">
+	<meta property="og:site_name" content="VectorStock">
+	<meta property="fb:app_id" content="241100862642313">
+
+	<link rel="shortcut icon" href="https://cdn.vectorstock.com/img/icons/favicon.ico" type="image/x-icon">
+	<link rel="search" type="application/opensearchdescription+xml" title="VectorStock Search" href="https://www.vectorstock.com/xml/searchbox.xml">
+
+	<title>Technology logo designabstract tech icon Vector Image</title>
+	<meta name="description" content="Technology logo design.Abstract tech icon vector template. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF vectors and high-res JPEG and PNG images.">
+	
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.vectorstock.com/royalty-free-vector/technology-logo-designabstract-tech-icon-vector-33721030">
+	<meta property="og:title" content="Technology logo designabstract tech icon vector image on VectorStock">
+	<meta property="og:description" content="Technology logo design.Abstract tech icon vector template. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF vectors and high-res JPEG and PNG images.">
+	<meta property="og:image" content="https://cdn1.vectorstock.com/i/1000x1000/10/30/technology-logo-designabstract-tech-icon-vector-33721030.jpg">
+	<meta property="og:image:url" content="https://cdn1.vectorstock.com/i/1000x1000/10/30/technology-logo-designabstract-tech-icon-vector-33721030.jpg">
+	<meta property="og:image:secure_url" content="https://cdn1.vectorstock.com/i/1000x1000/10/30/technology-logo-designabstract-tech-icon-vector-33721030.jpg">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta property="og:image:width" content="1000">
+	<meta property="og:image:height" content="1000">
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:url" content="https://www.vectorstock.com/royalty-free-vector/technology-logo-designabstract-tech-icon-vector-33721030">
+	<meta name="twitter:title" content="Technology logo designabstract tech icon vector image">
+	<meta name="twitter:description" content="Technology logo design.Abstract tech icon vector template">
+	<meta name="twitter:image" content="https://cdn1.vectorstock.com/i/thumb-large/10/30/technology-logo-designabstract-tech-icon-vector-33721030.jpg">
+	<meta name="twitter:image:width" content="238">
+	<meta name="twitter:image:height" content="250">
+
+	<link rel="canonical" href="https://www.vectorstock.com/royalty-free-vector/technology-logo-designabstract-tech-icon-vector-33721030">
+
+	<link rel="stylesheet" type="text/css" href="./logo2_files/common1661990072.min.css">
+	<link rel="stylesheet" type="text/css" href="./logo2_files/common-payment1661990072.min.css">
+	<link rel="stylesheet" type="text/css" href="./logo2_files/vector1661990072.min.css">
+	<script async="" src="./logo2_files/js(2)"></script>
+	<script src="./logo2_files/common1661908238.min.js"></script>
+	<script src="./logo2_files/common-payment-paddle1661908238.min.js"></script>
+	<script src="./logo2_files/vector1661908238.min.js"></script>
+	<link rel="preload" href="https://cdn.vectorstock.com/i/1000x1000/10/30/technology-logo-designabstract-tech-icon-vector-33721030.webp" as="image">
+<meta http-equiv="origin-trial" content="A7bG5hJ4XpMV5a3V1wwAR0PalkFSxLOZeL9D/YBYdupYUIgUgGhfVJ1zBFOqGybb7gRhswfJ+AmO7S2rNK2IOwkAAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjY5NzY2Mzk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><script type="text/javascript" async="" src="./logo2_files/f(1).txt" nonce="r2zFIQNjAE3UvvxDwPZazIpt7izWma8QfH3Nd5t/Z5M="></script><link rel="stylesheet" type="text/css" href="./logo2_files/animate.css" media="all"><link rel="stylesheet" type="text/css" href="./logo2_files/paddle.css" media="all"></head>
+<body>
+
+<!-- Top header -->
+<header>
+	<nav class="top">
+		<figure>
+			<a href="https://www.vectorstock.com/" title="VectorStock®">VectorStock®</a>
+		</figure>
+
+		<div class="grid">
+			<form id="searchbox" class="empty">
+				<div class="wrap">
+					<fieldset>
+						<div class="contents">
+							<div class="tags">
+								<ul></ul>
+							</div>
+							<div class="input">
+								<input type="text" name="input" autocomplete="off" autocapitalize="none" spellcheck="true" value="" placeholder="Search…" maxlength="50" autofocus="">
+								<button type="button" data-action="clear">×</button>
+							</div>
+
+							<input type="hidden" name="category" value="">
+							<input type="hidden" name="custom_srp" value="">
+							<input type="hidden" name="artist" value="">
+							<input type="hidden" name="similar" value="">
+						</div>
+					<div class="suggestions"><div></div></div></fieldset>
+
+					<button type="submit">
+						<span class="icon">Search</span>
+					</button>
+				</div>
+			</form>
+			<ul>
+				<li><a href="https://www.vectorstock.com/royalty-free-vectors">All Vectors</a></li>
+				<li><a href="https://www.vectorstock.com/free-vectors">Free Vectors</a></li>
+			</ul>
+		</div>
+
+		<div class="aside">
+			<ul>
+				<li><a href="https://www.vectorstock.com/popular-categories" title="Popular Categories">Categories</a></li>
+				<li><a href="https://www.vectorstock.com/pricing" title="Pricing">Pricing</a></li>
+				<li class="account">
+					<button type="button" data-action="signup">Sign Up</button>
+					<button type="button" data-action="login">Login</button>
+				</li>
+			</ul>
+		</div>
+
+		<div id="mobilenav-icon">
+			<span></span><span></span><span></span><span></span>
+		</div>
+	</nav>
+
+	<!-- Submenu -->
+		<nav id="searchrelated"></nav>	
+
+	<!-- Mobile menu -->
+	<div id="mobilenav-menu">
+		<div>
+			<div class="group">
+				<h4>Browse</h4>
+				<ul>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors">All Vectors</a></li>
+					<li><a href="https://www.vectorstock.com/free-vectors">Free Vectors</a></li>
+				</ul>
+			</div>
+			<div class="group">
+				<h4>Account</h4>
+				<ul>
+					<li class="account">
+						<ul>
+							<li><a href="https://www.vectorstock.com/signup">Sign Up</a></li>
+							<li data-action="login"><a href="https://www.vectorstock.com/?login=1">Login…</a></li>
+							<li><a href="https://www.vectorstock.com/pricing">Pricing</a></li>
+						</ul>
+					</li>
+				</ul>
+				<form method="get" action="https://www.vectorstock.com/auth/logout" class="logout">
+					<input type="hidden" name="logout" value="1">
+				</form>
+			</div>
+			<div class="group">
+				<h4>Help</h4>
+				<ul>
+					<li><a href="https://www.vectorstock.com/faq"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
+					<li><a href="https://www.vectorstock.com/contact">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+
+		<!-- Account Menu Tabs -->
+		<aside id="nav_sidebar" class="tabs tabsDark">
+
+			<nav>
+				<ul role="tablist">
+					<li data-tab-id="signup" class=""><span role="tab"><span>Sign Up</span></span></li>
+					<li data-tab-id="login" class="selected"><span role="tab"><span>Log In</span></span></li>
+				</ul>
+			</nav>
+
+			<section id="sb_signup" data-tab-id="signup" class="">
+				<div class="primary">
+					<p>New to VectorStock?</p>
+					<p><em>We're the largest royalty-free, vector-only stock agency in the world.</em></p>
+					<p>Every week we add new premium graphics by the thousands.</p>
+				</div>
+				<div class="secondary">
+					<p>Whether you're a global ad&nbsp;agency or a freelance graphic designer, we have the vector graphics to make your project come to life.</p>
+					<p>Buy Vectors, sell Vectors or both. <a href="https://www.vectorstock.com/signup">Sign up now, it’s free.</a></p>
+				</div>
+				<div class="footer">
+					<button class="master">
+						<span class="title">Sign Up...</span>
+						<span class="value">
+							<span class="symbol signup"></span>
+						</span>
+					</button>
+				</div>
+			</section>
+
+			<section id="sb_login" data-tab-id="login" class="selected">
+				<form action="https://www.vectorstock.com/auth/login" method="post">
+					<fieldset class="">
+						<label for="vs_username">Email / Username</label>
+						<div class="textfield">
+							<input type="text" id="vs_username" name="vs_username" value="" autocomplete="on" tabindex="1">
+						</div>
+					</fieldset>
+					<fieldset class="">
+						<label for="vs_password">Password</label>
+						<button type="button" class="forgot">Forgot Password</button>
+						<div class="textfield">
+							<input type="password" id="vs_password" name="vs_password" value="" autocomplete="on" tabindex="2" maxlength="72">
+						</div>
+					</fieldset>
+
+
+					<button type="submit" tabindex="4">Log In</button>
+				</form>
+				<div class="alternatives">
+					<h6>Or Login With</h6>
+					<ul>
+						<li class="gp"><a href="https://www.vectorstock.com/">
+							<span class="title">Google</span>
+							<span class="icon"></span>
+						</a></li>
+						<li class="fb"><a href="https://www.vectorstock.com/">
+							<span class="title">Facebook</span>
+							<span class="icon"></span>
+						</a></li>
+					</ul>
+				</div>
+
+				
+			</section>
+		</aside>
+
+	<!-- Page -->
+	<article>
+		<section id="vs-asset" style="max-width: 780px;">
+
+			<!-- Aside -->
+			<div class="aside">
+				<ol itemscope="" itemtype="http://schema.org/BreadcrumbList">
+					<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="https://www.vectorstock.com/royalty-free-vectors">
+							<span itemprop="name">Royalty Free Vectors</span>
+						</a>
+						<meta itemprop="position" content="1">
+					</li>
+					<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="https://www.vectorstock.com/royalty-free-vectors/technology-vectors">
+							<span itemprop="name">Technology Vectors</span>
+						</a>
+						<meta itemprop="position" content="2">
+					</li>
+				</ol>
+
+				<h1>Technology logo designabstract tech icon vector&nbsp;image</h1>
+
+				<figure style="padding-top: 99%;" class="target reveal">
+					<div class="highres" data-src="https://cdn1.vectorstock.com/i/1000x1000/10/30/technology-logo-designabstract-tech-icon-vector-33721030.jpg">
+						<picture>
+							<source type="image/webp" srcset="https://cdn.vectorstock.com/i/1000x1000/10/30/technology-logo-designabstract-tech-icon-vector-33721030.webp">
+							<source type="image/jpeg" srcset="https://cdn1.vectorstock.com/i/1000x1000/10/30/technology-logo-designabstract-tech-icon-vector-33721030.jpg">
+							<img src="./logo2_files/technology-logo-designabstract-tech-icon-vector-33721030.jpg" importance="high" title="Technology logo designabstract tech icon vector image" alt="Technology logo designabstract tech icon">
+						</picture>
+					</div>
+					<div class="overlay"></div>
+				</figure>
+
+				<form data-loggedin="0" data-licenses="2" data-license="standard" data-status="" data-payment="single-image">
+					<input type="hidden" id="vector_id" value="33721030">
+					<input type="hidden" id="vector_title" value="Technology logo designabstract tech icon">
+					<input type="hidden" id="vector_description" value="Technology logo design.Abstract tech icon vector template. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF vectors and high-res JPEG and PNG images.">
+					<input type="hidden" id="vector_url" value="https://www.vectorstock.com/royalty-free-vector/technology-logo-designabstract-tech-icon-vector-33721030">
+					<input type="hidden" id="vector_media" value="https://cdn1.vectorstock.com/i/1000x1000/10/30/technology-logo-designabstract-tech-icon-vector-33721030.jpg">
+					<input type="hidden" id="vector_ratio" value="1">
+					<input type="hidden" id="vector_license_status" value="">
+					<input type="hidden" id="artist_name" value="superghonam">
+					<input type="hidden" id="account_user" value="0">
+					<input type="hidden" id="vector_transparent_png" value="0">
+					<input type="hidden" id="vector_download_urls" value="[]">
+					<input type="hidden" id="vector_license_options" value="[{&quot;type&quot;:&quot;standard&quot;,&quot;cost&quot;:{&quot;single-image&quot;:14.99,&quot;credits&quot;:1,&quot;subscription&quot;:1}},{&quot;type&quot;:&quot;expanded&quot;,&quot;cost&quot;:{&quot;single-image&quot;:39.99,&quot;credits&quot;:30}}]">
+					<input type="hidden" id="account_filetype" value="zip">
+					<input type="hidden" id="account_customizations" value="[]">
+					<input type="hidden" id="account_cloud" value="[{&quot;type&quot;:&quot;googledrive&quot;,&quot;status&quot;:&quot;connect&quot;}]">
+					
+					<div class="options">
+						<!--
+						-- OPTION: License type
+						-->
+						<div class="option" data-type="license" data-license="standard" data-licenses="2">
+							<h6><span class="type">License</span><a href="https://www.vectorstock.com/faq/members/standard-license">Learn More</a></h6>
+							<div class="optgroup radgroup">
+								<fieldset class="checked">
+									<label for="f_license_standard">
+										<input type="radio" id="f_license_standard" name="license" value="standard" checked="checked" tabindex="2">
+										<span class="label">Standard</span>
+										<span class="descr">You can use the vector for personal and commercial purposes.</span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_license_expanded">
+										<input type="radio" id="f_license_expanded" name="license" value="expanded" tabindex="4">
+										<span class="label">Expanded</span>
+										<span class="descr">You can use the vector on items for resale and print-on-demand.</span>
+									</label>
+								</fieldset>
+							</div>
+
+							<div class="help">
+								<p>The license type determines how you can use this image.</p>
+								<table>
+									<thead>
+										<tr>
+											<th></th>
+																						<th data-license="standard">Std.</th>																						<th data-license="expanded">Exp.</th>										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td>Print / Editorial</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Graphic Design</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Web Design</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Social Media</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Edit &amp; Modify</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Multi-user</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Resale Items</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Print on Demand</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						
+						<!--
+						-- OPTION: Payment options (Standard)
+						-->
+						<div class="option" data-type="payment" data-license="standard">
+							<h6><span class="type">Ways to Buy</span><a href="https://www.vectorstock.com/pricing">Compare</a></h6>
+							<div class="optgroup radgroup" data-license="standard">
+								<fieldset class="checked">
+									<label for="f_payment_standard_single-image">
+										<input type="radio" id="f_payment_standard_single-image" name="payment_standard" data-cost="14.99" value="single-image" checked="checked" tabindex="5">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>$</small><var>14.99</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_standard_credits">
+										<input type="radio" id="f_payment_standard_credits" name="payment_standard" data-cost="1" value="credits" tabindex="6">
+										<span class="label">Credits</span>
+										<span class="value"><small>$</small><var>1.00</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_standard_subscription">
+										<input type="radio" id="f_payment_standard_subscription" name="payment_standard" data-cost="1" value="subscription" tabindex="7">
+										<span class="label">Subscription</span>
+										<span class="value"><small>$</small><var>0.69</var></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help">
+								<p>There are three ways to pay for Standard licenses. Prices are $<abbr title="United States Dollar">USD</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Image Price</th>
+										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-per-Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>14.99</span>
+												</span>
+												<span class="byline">One-time payment</span>
+											</td>
+										</tr>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pre-paid Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>1</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = $1). Minimum purchase of 30.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Subscription Plan</span>
+													<span class="dm"></span>
+													<span class="dd"><em>From</em> 69¢</span>
+												</span>
+												<span class="byline">Choose a monthly plan. Unused downloads automatically roll into following month.</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<!--
+						-- OPTION: Payment options (Expanded)
+						-->
+						<div class="option" data-type="payment" data-license="expanded">
+							<h6><span class="type">Ways to Buy</span><a href="https://www.vectorstock.com/faq/members/ways-to-buy">Compare</a></h6>
+							<div class="optgroup radgroup" data-license="expanded">
+								<fieldset class="checked">
+									<label for="f_payment_expanded_single-image">
+										<input type="radio" id="f_payment_expanded_single-image" name="payment_expanded" data-cost="39.99" value="single-image" checked="checked" tabindex="8">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>$</small><var>39.99</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_expanded_credits">
+										<input type="radio" id="f_payment_expanded_credits" name="payment_expanded" data-cost="30" value="credits" tabindex="9">
+										<span class="label">Credits</span>
+										<span class="value"><small>$</small><var>30.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+														<div class="help">
+								<p>There are two ways to pay for Expanded licenses. Prices are $<abbr title="United States Dollar">USD</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Cost per Image</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-per-Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>39.99</span>
+												</span>
+												<span class="byline">One-off payment, no signup needed.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pre-paid Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>30</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = $1).</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+													</div>
+						<!--
+						-- OPTION: Customization
+						-->
+						<div class="option" data-type="customization">
+							<h6><span class="type">Extra Services</span><a href="https://www.vectorstock.com/faq/members/what-is-hire-a-designer">Learn More</a></h6>
+							<div class="optgroup chkgroup">
+								<fieldset>
+									<label for="f_payment_customization">
+										<input type="checkbox" id="f_payment_customization" name="payment_customization" data-cost="85" value="customization" tabindex="12">
+										<span class="label">Customize image</span>
+										<span class="descr">Only available with Pay-per-Image</span>
+										<span class="value"><small>$</small><var>85.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help">
+								<p>Love the image but just need a few modifications? Let our talented artists do the work for you!</p>
+								<p>We’ll connect you with a designer who can make updates and send you the artwork in a format of your choice.</p>
+								<h4>Examples</h4>
+								<ul>
+									<li>Change the text</li>
+									<li>Modify colors</li>
+									<li>Resize to new dimensions</li>
+									<li>Include logo or symbol</li>
+									<li>Add your company or business name</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="download">
+						<button type="button" data-action="download">
+							<span class="label">Download Image</span>
+							<span class="icon"></span>
+						</button>
+						<h6><span class="label">Files Included</span></h6>
+						<div class="help">
+							<span class="loading"><span class="label">Loading Details...</span></span>
+						</div>
+					</div>
+				</form>
+			</div>
+
+			<!-- Image -->
+			<div class="image">
+				<figure data-orientation="square" style="padding-top: 99%;" class="target reveal">
+					<div class="highres" data-src="https://cdn1.vectorstock.com/i/1000x1000/10/30/technology-logo-designabstract-tech-icon-vector-33721030.jpg">
+						<picture>
+							<source type="image/webp" srcset="https://cdn.vectorstock.com/i/1000x1000/10/30/technology-logo-designabstract-tech-icon-vector-33721030.webp">
+							<source type="image/jpeg" srcset="https://cdn1.vectorstock.com/i/1000x1000/10/30/technology-logo-designabstract-tech-icon-vector-33721030.jpg">
+							<img src="./logo2_files/technology-logo-designabstract-tech-icon-vector-33721030.jpg" importance="high" title="Technology logo designabstract tech icon vector image" alt="Technology logo designabstract tech icon">
+						</picture>
+					</div>
+					<div class="overlay"></div>
+					<div class="panels">
+						<div class="share">
+							<ul>
+								<li><button type="button" data-action="pinterest"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M12.5,0C5.6,0,0,5.6,0,12.5c0,5.12,3.08,9.52,7.48,11.45c-0.03-0.87-0.01-1.92,0.22-2.87c0.24-1.01,1.61-6.81,1.61-6.81s-0.4-0.8-0.4-1.98c0-1.85,1.07-3.24,2.41-3.24c1.14,0,1.69,0.85,1.69,1.88c0,1.14-0.73,2.85-1.1,4.44c-0.31,1.33,0.67,2.41,1.97,2.41c2.37,0,3.96-3.04,3.96-6.65c0-2.74-1.85-4.79-5.2-4.79c-3.79,0-6.15,2.83-6.15,5.99c0,1.09,0.32,1.86,0.82,2.45c0.23,0.27,0.26,0.38,0.18,0.7c-0.06,0.23-0.2,0.78-0.25,1c-0.08,0.32-0.34,0.43-0.63,0.31c-1.75-0.71-2.56-2.62-2.56-4.77c0-3.55,3-7.81,8.93-7.81c4.77,0,7.91,3.45,7.91,7.16c0,4.9-2.73,8.57-6.75,8.57c-1.35,0-2.62-0.73-3.05-1.56c0,0-0.73,2.88-0.88,3.44c-0.27,0.96-0.78,1.93-1.26,2.68C10.08,24.82,11.27,25,12.5,25C19.4,25,25,19.4,25,12.5S19.4,0,12.5,0L12.5,0z"></path></svg></span><span class="label">Save to Pinterest</span></button></li>
+								<li><button type="button" data-action="facebook"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M22.44,1H2.56C1.7,1,1,1.7,1,2.56v19.88C1,23.3,1.7,24,2.56,24h10.41v-8.89H9.98v-3.46h2.99V9.1c0-2.96,1.81-4.58,4.45-4.58c1.27,0,2.35,0.09,2.67,0.14v3.1l-1.83,0c-1.44,0-1.72,0.68-1.72,1.69v2.21h3.43l-0.45,3.46h-2.98V24h5.89C23.3,24,24,23.3,24,22.44V2.56C24,1.7,23.3,1,22.44,1z"></path></svg></span><span class="label">Post to Facebook</span></button></li>
+								<li><button type="button" data-action="twitter"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M7.86,22.5c9.43,0,14.59-7.69,14.59-14.37c0-0.22,0-0.44-0.01-0.65c1-0.71,1.87-1.6,2.56-2.61c-0.92,0.4-1.91,0.67-2.95,0.79c1.06-0.62,1.87-1.61,2.26-2.79c-0.99,0.58-2.09,1-3.26,1.23c-0.94-0.98-2.27-1.6-3.74-1.6c-2.83,0-5.13,2.26-5.13,5.05c0,0.4,0.05,0.78,0.13,1.15C8.05,8.49,4.27,6.48,1.74,3.42C1.3,4.17,1.05,5.04,1.05,5.96c0,1.75,0.91,3.3,2.28,4.2C2.49,10.14,1.7,9.91,1,9.53C1,9.55,1,9.58,1,9.6c0,2.45,1.77,4.49,4.11,4.95c-0.43,0.12-0.88,0.18-1.35,0.18c-0.33,0-0.65-0.03-0.96-0.09c0.65,2.01,2.55,3.47,4.79,3.51C5.84,19.5,3.63,20.3,1.22,20.3c-0.41,0-0.82-0.02-1.22-0.07C2.27,21.66,4.97,22.5,7.86,22.5"></path></svg></span><span class="label">Post to Twitter</span></button></li>
+							</ul>
+							<ul>
+								<li><button type="button" data-action="email"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M24.37,2.25c-0.07,0-0.15,0.01-0.22,0.04l-2.75,1L0.24,12.14c-0.3,0.13-0.33,0.54-0.05,0.71l3.94,2.39l0.99,0.6l1.94,5.58c0.05,0.14,0.25,0.1,0.25-0.04l0.03-4.19v-0.05l8.87-7.49c0.15-0.13,0.37-0.12,0.52,0.01l0,0c0.17,0.15,0.17,0.42,0.01,0.58L8.85,18v0.18l7.53,4.52c0.21,0.13,0.48,0.04,0.57-0.19l7.89-19.11l0.11-0.28C25.13,2.68,24.8,2.25,24.37,2.25z"></path></svg></span><span class="label">Send by Email</span></button></li>
+							</ul>
+						</div>
+						<div class="composite">
+							<button type="button" data-action="download"><span><span class="label">Download JPG Preview Image</span></span></button>
+						</div>
+					</div>
+				</figure>
+				<div class="details">
+					<div class="meta">
+						<ul>
+							<li class="meta-id">
+								<dl><dt>Image ID</dt><dd>33721030</dd></dl>
+							</li>
+							<li class="meta-color-mode">
+								<dl><dt>Color Mode</dt><dd>CMYK</dd></dl>
+							</li>
+							<li class="meta-artist">
+								<dl>
+									<dt>Artist</dt>
+									<dd>
+										<a href="https://www.vectorstock.com/royalty-free-vectors/vectors-by_superghonam" rel="nofollow">superghonam</a>
+										<button type="button" data-action="follow" title="Follow Artists that you like to create a newsfeed of their recent images."><span class="label">Follow</span></button>
+									</dd>
+								</dl>
+							</li>
+						</ul>
+					</div>
+					<div class="options mini" data-total="2">
+						<ul>
+							<li class="opt-like">
+								<button type="button" data-action="like" data-count="1"><span class="icon">♥</span><span class="label">Like</span><span class="tally">(1)</span></button>
+							</li>
+							<li class="opt-cart">
+								<button type="button" data-action="cart"><span class="icon">+</span><span class="label">Cart</span></button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Metadata -->
+			<div class="metadata">
+				<div itemtype="http://schema.org/ImageObject" itemscope="">
+					<meta itemprop="contentUrl" content="https://cdn1.vectorstock.com/i/1000x1000/10/30/technology-logo-designabstract-tech-icon-vector-33721030.jpg">
+					<meta itemprop="thumbnailUrl" content="https://cdn1.vectorstock.com/i/thumb-large/10/30/technology-logo-designabstract-tech-icon-vector-33721030.jpg">
+					<meta itemprop="name" content="Technology logo designabstract tech icon">
+					<meta itemprop="description" content="Technology logo design.Abstract tech icon vector template. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF vectors and high-res JPEG and PNG images. vector image">
+					<meta itemprop="author" content="superghonam">
+					<meta itemprop="datePublished" content="2020-09-10">
+					<meta itemprop="license" content="https://www.vectorstock.com/faq/members/standard-license">
+					<meta itemprop="acquireLicensePage" content="https://www.vectorstock.com/royalty-free-vector/technology-logo-designabstract-tech-icon-vector-33721030">
+					<meta itemprop="sourceOrganization" content="VectorStock.com">
+				</div>
+			</div>
+
+		</section>
+
+
+		<section id="vs-related">
+			<div id="group-similar" class="group">
+				<h6><span class="icon"></span><strong>Similar Images</strong></h6>
+
+				<div class="gallery large">
+					<ul>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/50/18/pixel-globe-logo-icon-design-vector-22745018.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/pixel-globe-logo-icon-design-vector-22745018" title="pixel globe logo icon design vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/50/18/pixel-globe-logo-icon-design-vector-22745018.jpg" title="pixel globe logo icon design" alt="pixel globe logo icon design vector image"></noscript><img src="./logo2_files/pixel-globe-logo-icon-design-vector-22745018.jpg"></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/62/95/global-link-globe-world-line-logo-concept-design-vector-23576295.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/global-link-globe-world-line-logo-concept-design-vector-23576295" title="global link globe world line logo concept design vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/62/95/global-link-globe-world-line-logo-concept-design-vector-23576295.jpg" title="global link globe world line logo concept design" alt="global link globe world line logo concept design vector image"></noscript><img src="./logo2_files/global-link-globe-world-line-logo-concept-design-vector-23576295.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/55/37/world-tech-logo-design-template-abstract-digital-vector-20605537.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/world-tech-logo-design-template-abstract-digital-vector-20605537" title="world tech logo design template abstract digital vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/55/37/world-tech-logo-design-template-abstract-digital-vector-20605537.jpg" title="world tech logo design template abstract digital" alt="world tech logo design template abstract digital vector image"></noscript><img src="./logo2_files/world-tech-logo-design-template-abstract-digital-vector-20605537.jpg"></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/11/60/a-earth-and-leaf-logo-combination-vector-13711160.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/a-earth-and-leaf-logo-combination-vector-13711160" title="a earth and leaf logo combination vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/11/60/a-earth-and-leaf-logo-combination-vector-13711160.jpg" title="a earth and leaf logo combination" alt="a earth and leaf logo combination vector image"></noscript><img src="./logo2_files/a-earth-and-leaf-logo-combination-vector-13711160.jpg"></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/90/85/planet-sphere-abstract-globe-logo-vector-5549085.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/planet-sphere-abstract-globe-logo-vector-5549085" title="planet sphere abstract globe logo vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/90/85/planet-sphere-abstract-globe-logo-vector-5549085.jpg" title="planet sphere abstract globe logo" alt="planet sphere abstract globe logo vector image"></noscript><img src="./logo2_files/planet-sphere-abstract-globe-logo-vector-5549085.jpg"></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/79/35/logo-globe-vector-20567935.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/logo-globe-vector-20567935" title="logo globe vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/79/35/logo-globe-vector-20567935.jpg" title="logo globe" alt="logo globe vector image"></noscript><img src="./logo2_files/logo-globe-vector-20567935.jpg"></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/61/95/digital-technology-world-logo-icon-brand-identity-vector-42906195.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/digital-technology-world-logo-icon-brand-identity-vector-42906195" title="digital technology world logo icon brand identity vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/61/95/digital-technology-world-logo-icon-brand-identity-vector-42906195.jpg" title="digital technology world logo icon brand identity" alt="digital technology world logo icon brand identity vector image"></noscript><img src="./logo2_files/digital-technology-world-logo-icon-brand-identity-vector-42906195.jpg"></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/50/80/world-circle-tech-logo-design-concept-icon-vector-39325080.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/world-circle-tech-logo-design-concept-icon-vector-39325080" title="world circle tech logo design concept icon vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/50/80/world-circle-tech-logo-design-concept-icon-vector-39325080.jpg" title="world circle tech logo design concept icon" alt="world circle tech logo design concept icon vector image"></noscript><img src="./logo2_files/world-circle-tech-logo-design-concept-icon-vector-39325080.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/83/19/globe-earth-sphere-logo-vector-21258319.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/globe-earth-sphere-logo-vector-21258319" title="globe earth sphere logo vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/83/19/globe-earth-sphere-logo-vector-21258319.jpg" title="globe earth sphere logo" alt="globe earth sphere logo vector image"></noscript><img src="./logo2_files/globe-earth-sphere-logo-vector-21258319.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/71/97/sphere-digital-globe-dot-tech-spread-3d-logo-icon-vector-27627197.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/sphere-digital-globe-dot-tech-spread-3d-logo-icon-vector-27627197" title="sphere digital globe dot tech spread 3d logo icon vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/71/97/sphere-digital-globe-dot-tech-spread-3d-logo-icon-vector-27627197.jpg" title="sphere digital globe dot tech spread 3d logo icon" alt="sphere digital globe dot tech spread 3d logo icon vector image"></noscript><img src="./logo2_files/sphere-digital-globe-dot-tech-spread-3d-logo-icon-vector-27627197.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/72/27/3d-digital-globe-logo-design-globe-icon-symbol-vector-26347227.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/3d-digital-globe-logo-design-globe-icon-symbol-vector-26347227" title="3d digital globe logo design globe icon symbol vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/72/27/3d-digital-globe-logo-design-globe-icon-symbol-vector-26347227.jpg" title="3d digital globe logo design globe icon symbol" alt="3d digital globe logo design globe icon symbol vector image"></noscript><img src="./logo2_files/3d-digital-globe-logo-design-globe-icon-symbol-vector-26347227.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/33/34/sphere-logo-abstract-ball-icon-vector-32223334.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/sphere-logo-abstract-ball-icon-vector-32223334" title="sphere logo abstract ball icon vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/33/34/sphere-logo-abstract-ball-icon-vector-32223334.jpg" title="sphere logo abstract ball icon" alt="sphere logo abstract ball icon vector image"></noscript><img src="./logo2_files/sphere-logo-abstract-ball-icon-vector-32223334.jpg"></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/92/36/cloud-computing-logo-concept-database-storage-vector-21559236.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/cloud-computing-logo-concept-database-storage-vector-21559236" title="cloud computing logo concept database storage vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/92/36/cloud-computing-logo-concept-database-storage-vector-21559236.jpg" title="cloud computing logo concept database storage" alt="cloud computing logo concept database storage vector image"></noscript><img src="./logo2_files/cloud-computing-logo-concept-database-storage-vector-21559236.jpg"></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/94/80/circuit-globe-logo-design-concept-template-fully-vector-21259480.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/circuit-globe-logo-design-concept-template-fully-vector-21259480" title="circuit globe logo design concept template fully vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/94/80/circuit-globe-logo-design-concept-template-fully-vector-21259480.jpg" title="circuit globe logo design concept template fully" alt="circuit globe logo design concept template fully vector image"></noscript><img src="./logo2_files/circuit-globe-logo-design-concept-template-fully-vector-21259480.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/96/87/global-tech-logo-design-template-vector-28429687.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/global-tech-logo-design-template-vector-28429687" title="global tech logo design template vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/96/87/global-tech-logo-design-template-vector-28429687.jpg" title="global tech logo design template" alt="global tech logo design template vector image"></noscript><img src="./logo2_files/global-tech-logo-design-template-vector-28429687.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/52/27/global-technology-logo-design-template-vector-29305227.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/global-technology-logo-design-template-vector-29305227" title="global technology logo design template vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/52/27/global-technology-logo-design-template-vector-29305227.jpg" title="global technology logo design template" alt="global technology logo design template vector image"></noscript><img src="./logo2_files/global-technology-logo-design-template-vector-29305227.jpg"></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/55/25/globe-sphere-technology-planet-logo-vector-17095525.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/globe-sphere-technology-planet-logo-vector-17095525" title="globe sphere technology planet logo vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/55/25/globe-sphere-technology-planet-logo-vector-17095525.jpg" title="globe sphere technology planet logo" alt="globe sphere technology planet logo vector image"></noscript><img src="./logo2_files/globe-sphere-technology-planet-logo-vector-17095525.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/86/52/planet-globe-icon-design-vector-25908652.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/planet-globe-icon-design-vector-25908652" title="planet globe icon design vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/86/52/planet-globe-icon-design-vector-25908652.jpg" title="planet globe icon design" alt="planet globe icon design vector image"></noscript><img src="./logo2_files/planet-globe-icon-design-vector-25908652.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/23/29/world-tech-logo-designs-vector-21772329.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/world-tech-logo-designs-vector-21772329" title="world tech logo designs vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/23/29/world-tech-logo-designs-vector-21772329.jpg" title="world tech logo designs" alt="world tech logo designs vector image"></noscript></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/78/60/globe-green-logo-vector-29967860.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/globe-green-logo-vector-29967860" title="globe green logo vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/78/60/globe-green-logo-vector-29967860.jpg" title="globe green logo" alt="globe green logo vector image"></noscript></a></li>
+					</ul>
+				</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="14930011" data-title="halftone circles spheres for tech brands" data-src="https://cdn2.vectorstock.com/i/thumbs/00/11/halftone-circles-spheres-for-tech-brands-vector-14930011.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/halftone-circles-spheres-for-tech-brands-vector-14930011" title="halftone circles spheres for tech brands vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/00/11/halftone-circles-spheres-for-tech-brands-vector-14930011.jpg" title="halftone circles spheres for tech brands" alt="halftone circles spheres for tech brands vector image"></noscript></a></li>
+						<li data-id="37030575" data-title="circle logo from a dotted pattern in perspective" data-src="https://cdn1.vectorstock.com/i/thumbs/05/75/circle-logo-from-a-dotted-pattern-in-perspective-vector-37030575.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/circle-logo-from-a-dotted-pattern-in-perspective-vector-37030575" title="circle logo from a dotted pattern in perspective vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/05/75/circle-logo-from-a-dotted-pattern-in-perspective-vector-37030575.jpg" title="circle logo from a dotted pattern in perspective" alt="circle logo from a dotted pattern in perspective vector image"></noscript></a></li>
+						<li data-id="20768735" data-title="blue planet in circle a green leaf symbol" data-src="https://cdn1.vectorstock.com/i/thumbs/87/35/blue-planet-in-circle-a-green-leaf-symbol-vector-20768735.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/blue-planet-in-circle-a-green-leaf-symbol-vector-20768735" title="blue planet in circle a green leaf symbol vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/87/35/blue-planet-in-circle-a-green-leaf-symbol-vector-20768735.jpg" title="blue planet in circle a green leaf symbol" alt="blue planet in circle a green leaf symbol vector image"></noscript></a></li>
+						<li data-id="31471548" data-title="space satellite logo in classic graphic" data-src="https://cdn4.vectorstock.com/i/thumbs/15/48/space-satellite-logo-in-classic-graphic-vector-31471548.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/space-satellite-logo-in-classic-graphic-vector-31471548" title="space satellite logo in classic graphic vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/15/48/space-satellite-logo-in-classic-graphic-vector-31471548.jpg" title="space satellite logo in classic graphic" alt="space satellite logo in classic graphic vector image"></noscript></a></li>
+						<li data-id="27206645" data-title="globe earth sphere with pointers out network over" data-src="https://cdn1.vectorstock.com/i/thumbs/66/45/globe-earth-sphere-with-pointers-out-network-over-vector-27206645.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/globe-earth-sphere-with-pointers-out-network-over-vector-27206645" title="globe earth sphere with pointers out network over vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/66/45/globe-earth-sphere-with-pointers-out-network-over-vector-27206645.jpg" title="globe earth sphere with pointers out network over" alt="globe earth sphere with pointers out network over vector image"></noscript></a></li>
+						<li data-id="24197469" data-title="saturn logo design template isolated" data-src="https://cdn5.vectorstock.com/i/thumbs/74/69/saturn-logo-design-template-isolated-vector-24197469.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/saturn-logo-design-template-isolated-vector-24197469" title="saturn logo design template isolated vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/74/69/saturn-logo-design-template-isolated-vector-24197469.jpg" title="saturn logo design template isolated" alt="saturn logo design template isolated vector image"></noscript></a></li>
+						<li data-id="30611994" data-title="axis logo" data-src="https://cdn5.vectorstock.com/i/thumbs/19/94/axis-logo-vector-30611994.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/axis-logo-vector-30611994" title="axis logo vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/19/94/axis-logo-vector-30611994.jpg" title="axis logo" alt="axis logo vector image"></noscript></a></li>
+						<li data-id="22425394" data-title="spectrum world pixel logo" data-src="https://cdn5.vectorstock.com/i/thumbs/53/94/spectrum-world-pixel-logo-vector-22425394.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/spectrum-world-pixel-logo-vector-22425394" title="spectrum world pixel logo vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/53/94/spectrum-world-pixel-logo-vector-22425394.jpg" title="spectrum world pixel logo" alt="spectrum world pixel logo vector image"></noscript></a></li>
+						<li data-id="32386078" data-title="logo on which an abstract image" data-src="https://cdn4.vectorstock.com/i/thumbs/60/78/logo-on-which-an-abstract-image-vector-32386078.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/logo-on-which-an-abstract-image-vector-32386078" title="logo on which an abstract image vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/60/78/logo-on-which-an-abstract-image-vector-32386078.jpg" title="logo on which an abstract image" alt="logo on which an abstract image vector image"></noscript></a></li>
+						<li data-id="21452784" data-title="globe logo earth wave logotype 2 planet" data-src="https://cdn5.vectorstock.com/i/thumbs/27/84/globe-logo-earth-wave-logotype-2-planet-vector-21452784.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/globe-logo-earth-wave-logotype-2-planet-vector-21452784" title="globe logo earth wave logotype 2 planet vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/27/84/globe-logo-earth-wave-logotype-2-planet-vector-21452784.jpg" title="globe logo earth wave logotype 2 planet" alt="globe logo earth wave logotype 2 planet vector image"></noscript></a></li>
+						<li data-id="5610512" data-title="sphere globe communication logo" data-src="https://cdn3.vectorstock.com/i/thumbs/05/12/sphere-globe-communication-logo-vector-5610512.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/sphere-globe-communication-logo-vector-5610512" title="sphere globe communication logo vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/05/12/sphere-globe-communication-logo-vector-5610512.jpg" title="sphere globe communication logo" alt="sphere globe communication logo vector image"></noscript></a></li>
+						<li data-id="33536056" data-title="abstract global digital logo" data-src="https://cdn2.vectorstock.com/i/thumbs/60/56/abstract-global-digital-logo-vector-33536056.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/abstract-global-digital-logo-vector-33536056" title="abstract global digital logo vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/60/56/abstract-global-digital-logo-vector-33536056.jpg" title="abstract global digital logo" alt="abstract global digital logo vector image"></noscript></a></li>
+						<li data-id="35636846" data-title="planet moon earth orbit science logo design" data-src="https://cdn2.vectorstock.com/i/thumbs/68/46/planet-moon-earth-orbit-science-logo-design-vector-35636846.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/planet-moon-earth-orbit-science-logo-design-vector-35636846" title="planet moon earth orbit science logo design vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/68/46/planet-moon-earth-orbit-science-logo-design-vector-35636846.jpg" title="planet moon earth orbit science logo design" alt="planet moon earth orbit science logo design vector image"></noscript></a></li>
+						<li data-id="14874145" data-title="planet globe sphere color logo image" data-src="https://cdn1.vectorstock.com/i/thumbs/41/45/planet-globe-sphere-color-logo-image-vector-14874145.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/planet-globe-sphere-color-logo-image-vector-14874145" title="planet globe sphere color logo image vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/41/45/planet-globe-sphere-color-logo-image-vector-14874145.jpg" title="planet globe sphere color logo image" alt="planet globe sphere color logo image vector image"></noscript></a></li>
+						<li data-id="31686092" data-title="abstract blue sphere logo design perfect to use" data-src="https://cdn3.vectorstock.com/i/thumbs/60/92/abstract-blue-sphere-logo-design-perfect-to-use-vector-31686092.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/abstract-blue-sphere-logo-design-perfect-to-use-vector-31686092" title="abstract blue sphere logo design perfect to use vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/60/92/abstract-blue-sphere-logo-design-perfect-to-use-vector-31686092.jpg" title="abstract blue sphere logo design perfect to use" alt="abstract blue sphere logo design perfect to use vector image"></noscript></a></li>
+						<li data-id="36784558" data-title="set 7 sphere globe logo" data-src="https://cdn4.vectorstock.com/i/thumbs/45/58/set-7-sphere-globe-logo-vector-36784558.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/set-7-sphere-globe-logo-vector-36784558" title="set 7 sphere globe logo vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/45/58/set-7-sphere-globe-logo-vector-36784558.jpg" title="set 7 sphere globe logo" alt="set 7 sphere globe logo vector image"></noscript></a></li>
+						<li data-id="26127897" data-title="fire globe logo design symbol" data-src="https://cdn3.vectorstock.com/i/thumbs/78/97/fire-globe-logo-design-symbol-vector-26127897.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/fire-globe-logo-design-symbol-vector-26127897" title="fire globe logo design symbol vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/78/97/fire-globe-logo-design-symbol-vector-26127897.jpg" title="fire globe logo design symbol" alt="fire globe logo design symbol vector image"></noscript></a></li>
+						<li data-id="10278802" data-title="blue circle spiral globe icon logo symbol" data-src="https://cdn3.vectorstock.com/i/thumbs/88/02/blue-circle-spiral-globe-icon-logo-symbol-vector-10278802.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/blue-circle-spiral-globe-icon-logo-symbol-vector-10278802" title="blue circle spiral globe icon logo symbol vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/88/02/blue-circle-spiral-globe-icon-logo-symbol-vector-10278802.jpg" title="blue circle spiral globe icon logo symbol" alt="blue circle spiral globe icon logo symbol vector image"></noscript></a></li>
+						<li data-id="36509178" data-title="halftone sphere dotted circle" data-src="https://cdn4.vectorstock.com/i/thumbs/91/78/halftone-sphere-dotted-circle-vector-36509178.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/halftone-sphere-dotted-circle-vector-36509178" title="halftone sphere dotted circle vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/91/78/halftone-sphere-dotted-circle-vector-36509178.jpg" title="halftone sphere dotted circle" alt="halftone sphere dotted circle vector image"></noscript></a></li>
+						<li data-id="23094529" data-title="bee world logo" data-src="https://cdn5.vectorstock.com/i/thumbs/45/29/bee-world-logo-vector-23094529.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/bee-world-logo-vector-23094529" title="bee world logo vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/45/29/bee-world-logo-vector-23094529.jpg" title="bee world logo" alt="bee world logo vector image"></noscript></a></li>
+						<li data-id="41186120" data-title="abstract round logo template with three strips" data-src="https://cdn1.vectorstock.com/i/thumbs/61/20/abstract-round-logo-template-with-three-strips-vector-41186120.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/abstract-round-logo-template-with-three-strips-vector-41186120" title="abstract round logo template with three strips vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/61/20/abstract-round-logo-template-with-three-strips-vector-41186120.jpg" title="abstract round logo template with three strips" alt="abstract round logo template with three strips vector image"></noscript></a></li>
+						<li data-id="17449437" data-title="sphere arrow logo set" data-src="https://cdn3.vectorstock.com/i/thumbs/94/37/sphere-arrow-logo-set-vector-17449437.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/sphere-arrow-logo-set-vector-17449437" title="sphere arrow logo set vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/94/37/sphere-arrow-logo-set-vector-17449437.jpg" title="sphere arrow logo set" alt="sphere arrow logo set vector image"></noscript></a></li>
+						<li data-id="23333229" data-title="biosphere emblem" data-src="https://cdn5.vectorstock.com/i/thumbs/32/29/biosphere-emblem-vector-23333229.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/biosphere-emblem-vector-23333229" title="biosphere emblem vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/32/29/biosphere-emblem-vector-23333229.jpg" title="biosphere emblem" alt="biosphere emblem vector image"></noscript></a></li>
+						<li data-id="21451859" data-title="blue polygonal sphere" data-src="https://cdn5.vectorstock.com/i/thumbs/18/59/blue-polygonal-sphere-vector-21451859.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/blue-polygonal-sphere-vector-21451859" title="blue polygonal sphere vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/18/59/blue-polygonal-sphere-vector-21451859.jpg" title="blue polygonal sphere" alt="blue polygonal sphere vector image"></noscript></a></li>
+						<li data-id="27347666" data-title="globe logo icon" data-src="https://cdn2.vectorstock.com/i/thumbs/76/66/globe-logo-icon-vector-27347666.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/globe-logo-icon-vector-27347666" title="globe logo icon vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/76/66/globe-logo-icon-vector-27347666.jpg" title="globe logo icon" alt="globe logo icon vector image"></noscript></a></li>
+						<li data-id="28302530" data-title="global network communication icon" data-src="https://cdn1.vectorstock.com/i/thumbs/25/30/global-network-communication-icon-vector-28302530.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/global-network-communication-icon-vector-28302530" title="global network communication icon vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/25/30/global-network-communication-icon-vector-28302530.jpg" title="global network communication icon" alt="global network communication icon vector image"></noscript></a></li>
+						<li data-id="29319166" data-title="target board with network connected link icon logo" data-src="https://cdn2.vectorstock.com/i/thumbs/91/66/target-board-with-network-connected-link-icon-logo-vector-29319166.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/target-board-with-network-connected-link-icon-logo-vector-29319166" title="target board with network connected link icon logo vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/91/66/target-board-with-network-connected-link-icon-logo-vector-29319166.jpg" title="target board with network connected link icon logo" alt="target board with network connected link icon logo vector image"></noscript></a></li>
+						<li data-id="27856100" data-title="planet jupiter design concept template" data-src="https://cdn1.vectorstock.com/i/thumbs/61/00/planet-jupiter-design-concept-template-vector-27856100.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/planet-jupiter-design-concept-template-vector-27856100" title="planet jupiter design concept template vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/61/00/planet-jupiter-design-concept-template-vector-27856100.jpg" title="planet jupiter design concept template" alt="planet jupiter design concept template vector image"></noscript></a></li>
+						<li data-id="5012726" data-title="globe planet earth logo" data-src="https://cdn2.vectorstock.com/i/thumbs/27/26/globe-planet-earth-logo-vector-5012726.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/globe-planet-earth-logo-vector-5012726" title="globe planet earth logo vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/27/26/globe-planet-earth-logo-vector-5012726.jpg" title="globe planet earth logo" alt="globe planet earth logo vector image"></noscript></a></li>
+						<li data-id="26735440" data-title="digital global logo design with arrow on sphere" data-src="https://cdn1.vectorstock.com/i/thumbs/54/40/digital-global-logo-design-with-arrow-on-sphere-vector-26735440.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/digital-global-logo-design-with-arrow-on-sphere-vector-26735440" title="digital global logo design with arrow on sphere vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/54/40/digital-global-logo-design-with-arrow-on-sphere-vector-26735440.jpg" title="digital global logo design with arrow on sphere" alt="digital global logo design with arrow on sphere vector image"></noscript></a></li>
+						<li class="more"><div><a href="https://www.vectorstock.com/royalty-free-vectors/vectors-similar-to_33721030" rel="nofollow"><span class="lrg">More Images…</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-artist" class="group">
+				<h6><span class="icon"></span><strong>More by <a href="https://www.vectorstock.com/royalty-free-vectors/vectors-by_superghonam" rel="nofollow">superghonam</a></strong></h6>
+
+			<div class="gallery large">
+				<ul>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/35/20/technology-logo-design-vector-38093520.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/technology-logo-design-vector-38093520" title="technology logo design vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/35/20/technology-logo-design-vector-38093520.jpg" title="technology logo design" alt="technology logo design vector image"></noscript></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/24/75/people-connection-logo-design-vector-36252475.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/people-connection-logo-design-vector-36252475" title="people connection logo design vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/24/75/people-connection-logo-design-vector-36252475.jpg" title="people connection logo design" alt="people connection logo design vector image"></noscript></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/24/85/global-connection-logo-design-symbol-vector-36252485.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/global-connection-logo-design-symbol-vector-36252485" title="global connection logo design symbol vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/24/85/global-connection-logo-design-symbol-vector-36252485.jpg" title="global connection logo design symbol" alt="global connection logo design symbol vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/40/78/globe-logo-design-symbol-inspiration-vector-36254078.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/globe-logo-design-symbol-inspiration-vector-36254078" title="globe logo design symbol inspiration vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/40/78/globe-logo-design-symbol-inspiration-vector-36254078.jpg" title="globe logo design symbol inspiration" alt="globe logo design symbol inspiration vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/24/93/globe-world-logo-design-vector-36252493.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/globe-world-logo-design-vector-36252493" title="globe world logo design vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/24/93/globe-world-logo-design-vector-36252493.jpg" title="globe world logo design" alt="globe world logo design vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/40/08/creative-planet-logo-design-vector-36254008.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/creative-planet-logo-design-vector-36254008" title="creative planet logo design vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/40/08/creative-planet-logo-design-vector-36254008.jpg" title="creative planet logo design" alt="creative planet logo design vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/24/81/abstract-circle-sphere-logo-vector-38752481.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/abstract-circle-sphere-logo-vector-38752481" title="abstract circle sphere logo vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/24/81/abstract-circle-sphere-logo-vector-38752481.jpg" title="abstract circle sphere logo" alt="abstract circle sphere logo vector image"></noscript></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/42/44/planet-logo-design-vector-40914244.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/planet-logo-design-vector-40914244" title="planet logo design vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/42/44/planet-logo-design-vector-40914244.jpg" title="planet logo design" alt="planet logo design vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/87/76/science-logo-design-symbol-template-vector-36248776.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/science-logo-design-symbol-template-vector-36248776" title="science logo design symbol template vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/87/76/science-logo-design-symbol-template-vector-36248776.jpg" title="science logo design symbol template" alt="science logo design symbol template vector image"></noscript></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/57/70/global-science-logo-design-vector-36255770.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/global-science-logo-design-vector-36255770" title="global science logo design vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/57/70/global-science-logo-design-vector-36255770.jpg" title="global science logo design" alt="global science logo design vector image"></noscript></a></li>
+				</ul>
+			</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="39043808" data-title="globe sphere colorful logo" data-src="https://cdn4.vectorstock.com/i/thumbs/38/08/globe-sphere-colorful-logo-vector-39043808.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/globe-sphere-colorful-logo-vector-39043808" title="globe sphere colorful logo vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/38/08/globe-sphere-colorful-logo-vector-39043808.jpg" title="globe sphere colorful logo" alt="globe sphere colorful logo vector image vector image"></noscript></a></li>
+						<li data-id="36254017" data-title="creative planet logo design inspiration" data-src="https://cdn3.vectorstock.com/i/thumbs/40/17/creative-planet-logo-design-inspiration-vector-36254017.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/creative-planet-logo-design-inspiration-vector-36254017" title="creative planet logo design inspiration vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/40/17/creative-planet-logo-design-inspiration-vector-36254017.jpg" title="creative planet logo design inspiration" alt="creative planet logo design inspiration vector image vector image"></noscript></a></li>
+						<li data-id="28073139" data-title="globe logo" data-src="https://cdn5.vectorstock.com/i/thumbs/31/39/globe-logo-vector-28073139.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/globe-logo-vector-28073139" title="globe logo vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/31/39/globe-logo-vector-28073139.jpg" title="globe logo" alt="globe logo vector image vector image"></noscript></a></li>
+						<li data-id="38093257" data-title="planet logo design inspiration" data-src="https://cdn3.vectorstock.com/i/thumbs/32/57/planet-logo-design-inspiration-vector-38093257.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/planet-logo-design-inspiration-vector-38093257" title="planet logo design inspiration vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/32/57/planet-logo-design-inspiration-vector-38093257.jpg" title="planet logo design inspiration" alt="planet logo design inspiration vector image vector image"></noscript></a></li>
+						<li data-id="36254023" data-title="creative planet logo design inspiration" data-src="https://cdn4.vectorstock.com/i/thumbs/40/23/creative-planet-logo-design-inspiration-vector-36254023.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/creative-planet-logo-design-inspiration-vector-36254023" title="creative planet logo design inspiration vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/40/23/creative-planet-logo-design-inspiration-vector-36254023.jpg" title="creative planet logo design inspiration" alt="creative planet logo design inspiration vector image vector image"></noscript></a></li>
+						<li data-id="36255772" data-title="global science logo design" data-src="https://cdn3.vectorstock.com/i/thumbs/57/72/global-science-logo-design-vector-36255772.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/global-science-logo-design-vector-36255772" title="global science logo design vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/57/72/global-science-logo-design-vector-36255772.jpg" title="global science logo design" alt="global science logo design vector image vector image"></noscript></a></li>
+						<li data-id="36248683" data-title="creative globe logo inspiration" data-src="https://cdn4.vectorstock.com/i/thumbs/86/83/creative-globe-logo-inspiration-vector-36248683.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/creative-globe-logo-inspiration-vector-36248683" title="creative globe logo inspiration vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/86/83/creative-globe-logo-inspiration-vector-36248683.jpg" title="creative globe logo inspiration" alt="creative globe logo inspiration vector image vector image"></noscript></a></li>
+						<li data-id="38093508" data-title="orbit logo design" data-src="https://cdn4.vectorstock.com/i/thumbs/35/08/orbit-logo-design-vector-38093508.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/orbit-logo-design-vector-38093508" title="orbit logo design vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/35/08/orbit-logo-design-vector-38093508.jpg" title="orbit logo design" alt="orbit logo design vector image vector image"></noscript></a></li>
+						<li data-id="33593208" data-title="abstract logo for technology companycreative" data-src="https://cdn4.vectorstock.com/i/thumbs/32/08/abstract-logo-for-technology-companycreative-vector-33593208.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/abstract-logo-for-technology-companycreative-vector-33593208" title="abstract logo for technology companycreative vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/32/08/abstract-logo-for-technology-companycreative-vector-33593208.jpg" title="abstract logo for technology companycreative" alt="abstract logo for technology companycreative vector image vector image"></noscript></a></li>
+						<li data-id="39422006" data-title="globe world logo" data-src="https://cdn2.vectorstock.com/i/thumbs/20/06/globe-world-logo-vector-39422006.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/globe-world-logo-vector-39422006" title="globe world logo vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/20/06/globe-world-logo-vector-39422006.jpg" title="globe world logo" alt="globe world logo vector image vector image"></noscript></a></li>
+						<li data-id="36254031" data-title="creative planet logo design inspiration" data-src="https://cdn2.vectorstock.com/i/thumbs/40/31/creative-planet-logo-design-inspiration-vector-36254031.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/creative-planet-logo-design-inspiration-vector-36254031" title="creative planet logo design inspiration vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/40/31/creative-planet-logo-design-inspiration-vector-36254031.jpg" title="creative planet logo design inspiration" alt="creative planet logo design inspiration vector image vector image"></noscript></a></li>
+						<li data-id="36254075" data-title="globe logo design symbol inspiration" data-src="https://cdn1.vectorstock.com/i/thumbs/40/75/globe-logo-design-symbol-inspiration-vector-36254075.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/globe-logo-design-symbol-inspiration-vector-36254075" title="globe logo design symbol inspiration vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/40/75/globe-logo-design-symbol-inspiration-vector-36254075.jpg" title="globe logo design symbol inspiration" alt="globe logo design symbol inspiration vector image vector image"></noscript></a></li>
+						<li data-id="33720977" data-title="world global logo design templatecreative" data-src="https://cdn3.vectorstock.com/i/thumbs/09/77/world-global-logo-design-templatecreative-vector-33720977.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/world-global-logo-design-templatecreative-vector-33720977" title="world global logo design templatecreative vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/09/77/world-global-logo-design-templatecreative-vector-33720977.jpg" title="world global logo design templatecreative" alt="world global logo design templatecreative vector image vector image"></noscript></a></li>
+						<li data-id="37826503" data-title="connection dot technology logo" data-src="https://cdn4.vectorstock.com/i/thumbs/65/03/connection-dot-technology-logo-vector-37826503.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/connection-dot-technology-logo-vector-37826503" title="connection dot technology logo vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/65/03/connection-dot-technology-logo-vector-37826503.jpg" title="connection dot technology logo" alt="connection dot technology logo vector image vector image"></noscript></a></li>
+						<li data-id="33593206" data-title="creative letter s logo symbol element templ" data-src="https://cdn2.vectorstock.com/i/thumbs/32/06/creative-letter-s-logo-symbol-element-templ-vector-33593206.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/creative-letter-s-logo-symbol-element-templ-vector-33593206" title="creative letter s logo symbol element templ vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/32/06/creative-letter-s-logo-symbol-element-templ-vector-33593206.jpg" title="creative letter s logo symbol element templ" alt="creative letter s logo symbol element templ vector image vector image"></noscript></a></li>
+						<li data-id="33752820" data-title="globe with cross symbol logo design" data-src="https://cdn1.vectorstock.com/i/thumbs/28/20/globe-with-cross-symbol-logo-design-vector-33752820.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/globe-with-cross-symbol-logo-design-vector-33752820" title="globe with cross symbol logo design vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/28/20/globe-with-cross-symbol-logo-design-vector-33752820.jpg" title="globe with cross symbol logo design" alt="globe with cross symbol logo design vector image vector image"></noscript></a></li>
+						<li data-id="28105220" data-title="abstract logo" data-src="https://cdn1.vectorstock.com/i/thumbs/52/20/abstract-logo-vector-28105220.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/abstract-logo-vector-28105220" title="abstract logo vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/52/20/abstract-logo-vector-28105220.jpg" title="abstract logo" alt="abstract logo vector image vector image"></noscript></a></li>
+						<li data-id="28105178" data-title="abstract logo" data-src="https://cdn4.vectorstock.com/i/thumbs/51/78/abstract-logo-vector-28105178.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/abstract-logo-vector-28105178" title="abstract logo vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/51/78/abstract-logo-vector-28105178.jpg" title="abstract logo" alt="abstract logo vector image vector image"></noscript></a></li>
+						<li data-id="33725793" data-title="letter s with circle logo design templatecreative" data-src="https://cdn4.vectorstock.com/i/thumbs/57/93/letter-s-with-circle-logo-design-templatecreative-vector-33725793.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/letter-s-with-circle-logo-design-templatecreative-vector-33725793" title="letter s with circle logo design templatecreative vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/57/93/letter-s-with-circle-logo-design-templatecreative-vector-33725793.jpg" title="letter s with circle logo design templatecreative" alt="letter s with circle logo design templatecreative vector image vector image"></noscript></a></li>
+						<li data-id="28105965" data-title="hand with globe logo" data-src="https://cdn1.vectorstock.com/i/thumbs/59/65/hand-with-globe-logo-vector-28105965.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/hand-with-globe-logo-vector-28105965" title="hand with globe logo vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/59/65/hand-with-globe-logo-vector-28105965.jpg" title="hand with globe logo" alt="hand with globe logo vector image vector image"></noscript></a></li>
+						<li class="more"><div><a href="https://www.vectorstock.com/royalty-free-vectors/vectors-by_superghonam" rel="nofollow"><span class="lrg">More Images…</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-keywords" class="group">
+				<h6><span class="icon"></span><strong>Related Searches</strong></h6>
+				<ul>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/technology-vectors">Technology</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/logo-vectors">Logo</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/global-vectors">Global</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/software-vectors">Software</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/tech-vectors">Tech</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/world-vectors">World</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/digital-vectors">Digital</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/link-vectors">Link</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/sphere-vectors">Sphere</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/company-vectors">Company</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/abstract-vectors">Abstract</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/icon-vectors">Icon</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/blue-vectors">Blue</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/communication-vectors">Communication</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/universal-vectors">Universal</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/design-vectors">Design</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/computer-vectors">Computer</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/modern-vectors">Modern</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/web-vectors">Web</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/template-vectors">Template</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/business-vectors">Business</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/space-vectors">Space</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/earth-vectors">Earth</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/connect-vectors">Connect</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/mobile-vectors">Mobile</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/corporate-vectors">Corporate</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/concept-vectors">Concept</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/identity-vectors">Identity</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/net-vectors">Net</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/application-vectors">Application</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/app-vectors">App</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/graphic-vectors">Graphic</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/vector-vectors">Vector</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/data-vectors">Data</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/style-vectors">Style</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/idea-vectors">Idea</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/internet-vectors">Internet</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/element-vectors">Element</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/globe-vectors">Globe</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/electricity-vectors">Electricity</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/symbol-vectors">Symbol</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/connection-vectors">Connection</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/network-vectors">Network</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/information-vectors">Information</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/creative-vectors">Creative</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/circle-vectors">Circle</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/intelligence-vectors">Intelligence</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/chip-vectors">Chip</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/illustration-vectors">Illustration</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/art-vectors">Art</a></li>
+				</ul>
+			</div>
+		</section>
+	</article>
+
+	<!-- Footer -->
+	<footer>
+		<div>
+		<div class="column c1">
+			<nav class="company">
+				<h4>VectorStock</h4>
+				<ul>
+					<li><a href="https://www.vectorstock.com/" title="Home">Home</a></li>
+					<li class="sel"><a href="https://www.vectorstock.com/free-vectors" title="Free Vectors">Free Vectors</a></li>
+					<li class="sel"><a href="https://www.vectorstock.com/royalty-free-vectors" title="All Royalty-Free Vectors">All Vectors</a></li>
+				</ul>
+				<ul>
+					<li><a href="https://www.vectorstock.com/what-is-a-vector" title="What is a Vector?">What is a Vector?</a></li>
+				</ul>
+				<ul>
+					<li class="sel"><a href="https://www.vectorstock.com/faq" title="Frequently Asked Questions"><span class="long">Frequently Asked Questions</span><span class="short">FAQs</span></a></li>
+					<li><a href="https://www.vectorstock.com/faq/members/terms-of-use" title="Terms &amp; Conditions">Terms &amp; Conditions</a></li>
+					<li class="sel"><a href="https://www.vectorstock.com/contact" title="Contact Us">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="column c2">
+			<nav class="account">
+				<h4><span class="title">Account</span><span class="icon"></span></h4>
+					<ul>
+						<li><a href="https://www.vectorstock.com/signup" title="Join Now">Join Now</a></li>
+						<li><a href="https://www.vectorstock.com/pricing" title="Pricing">Pricing</a></li>
+						<li><a href="https://www.vectorstock.com/?signup=1&amp;contributor=1" title="Contributor Sign Up">Contributor Sign Up</a></li>
+						<li><a href="https://www.vectorstock.com/faq/artists/why-sell-at-vectorstock" title="Contributor FAQ">Contributor FAQ</a></li>
+					</ul>
+			</nav>
+		</div>
+		<div class="column c3">
+			<nav class="social">
+				<h4>Social</h4>
+				<ul>
+					<li class="facebook sel"><a href="https://www.facebook.com/VectorStock" target="_blank" rel="noreferrer"><span class="title">Facebook</span><span class="icon"></span></a></li>
+					<li class="pinterest sel"><a href="https://pinterest.com/vectorstock/" target="_blank" rel="noreferrer"><span class="title">Pinterest</span><span class="icon"></span></a></li>
+					<li class="twitter sel"><a href="https://twitter.com/VectorStock" target="_blank" rel="noreferrer"><span class="title">Twitter</span><span class="icon"></span></a></li>
+				</ul>
+			</nav>
+			<div class="signoff">
+				<h5><a href="https://www.vectorstock.com/" title="VectorStock®">VectorStock®</a></h5>
+				<p>VectorStock and the VectorStock logo are registered trademarks of VectorStock Media.<br>
+				© 2022. <span>All Rights Reserved.</span></p>
+			</div>
+		</div>
+		</div>
+	</footer>
+
+
+	<script type="text/javascript" nonce="r2zFIQNjAE3UvvxDwPZazIpt7izWma8QfH3Nd5t/Z5M=">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"02e09611df","applicationID":"156179534","transactionName":"ZV0ENRYCC0RYAkVbDVwXJRQXFwpaFhNeSwNeTB9MAhEAUhQXVFEWXUpJFw0GEg==","queueTime":0,"applicationTime":50,"atts":"SRoHQ14YGEo=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+
+
+</body></html>
